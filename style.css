@@ -8,24 +8,11 @@ body {
   padding: 40px;
 }
 
-/* Headings */
+/* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
-}
-
-/* Header */
-header {
-  text-align: center;
-}
-
-/* Containers */
-div {
-  background-color: #eae2b7;
-  margin: auto;
-  width: 600px;
 }
 
 article {
@@ -37,42 +24,34 @@ article div {
   width: 100%;
 }
 
-/* Paragraphs */
 p {
   line-height: 1.5;
 }
 
-/* Links */
-a:link {
-  color: #d62828;
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
 }
 
-a:hover {
-  color: #f77f00;
-}
-
-nav a {
-  padding-left: 20px;
-}
-
-/* Images */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
 
-.image-circle {
-  border: 2px solid #003049;
-  border-radius: 50%;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-}
-
-/* Other page elements */
 hr {
   border: 1px solid black;
 }
+
+/* Add your solution below */
+
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+a:link {color: #d62828;}
+a:visited{color: #d62828;}
+a:hover{color:#f77f00}
+a:activated{color: #d62828;}
